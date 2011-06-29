@@ -1,0 +1,15 @@
+{
+  "name" : "snipmate-snippets-fortran95",
+  "author" : "Roberto Bonvallet <rbonvall@gmail.com>",
+  "repository" : {
+    "type": "git",
+    "url": "git://github.com/rbonvall/snipmate-snippets-fortran95.git"
+  },
+  "dependencies" : {
+    "snipmate": {
+      "type": "git",
+      "url": "https://github.com/garbas/vim-snipmate.git"
+    }
+  },
+  "description" : "Snipmate.vim support for Fortran 95."
+}
