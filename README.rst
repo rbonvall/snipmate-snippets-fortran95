@@ -16,32 +16,21 @@ Dependencies
 
 Installation
 ------------
-If you use Pathogen_,
-just clone this repository
-into your ``bundle`` directory::
+This addon is compatible with Pathogen_ and Vundle_.
+If you use one of them,
+you are awesome so you'll know what to do.
 
-    cd ~/.vim/bundle
-    git clone git://github.com/rbonvall/snipmate-snippets-fortran95.git
+I pretend to support installation with VAM_ as well,
+but I haven't tried it.
 
-Personally,
-I prefer to add bundles as submodules
-of the git repository for my ``.vim`` directory (`rbonvall/dotvim`_)::
-
-    cd ~/.vim
-    git submodule add git://github.com/rbonvall/snipmate-snippets-fortran95.git bundle/snippets-fortran95
-    git submodule init
-    git submodule update
-    git commit  -m 'Add Fortran 95 snippets to bundles as submodule'
-
-If you don't use Pathogen
-(you should!)
-just drop the fortran.snippets_ file
+If you are an old-fashioned Vimmer,
+just drop the bib.snippets_ file
 into the ``snippets`` directory
-of your Snipmate installation.
+of your Snipmate install.
 
 .. _Snipmate: https://github.com/garbas/vim-snipmate
 .. _Pathogen: https://github.com/tpope/vim-pathogen
-.. _rbonvall/dotvim: https://github.com/rbonvall/dotvim
+.. _VAM: https://github.com/MarcWeber/vim-addon-manager
 .. _fortran.snippets: https://github.com/rbonvall/snipmate-snippets-fortran95/blob/master/snippets/fortran.snippets
 
 Author
